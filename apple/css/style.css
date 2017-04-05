@@ -1,0 +1,712 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    list-style: none;
+}
+html{
+    font-size: 87.5%;
+}
+.color_white{
+    color:white !important;
+}
+.color_black{
+    color:black !important;
+}
+.bot_10{
+    margin-bottom:10px;
+}
+.bg_f2{
+    width: 100%;
+    background: #f2f2f2;
+}
+.bg_write{
+    width: 100%;
+    background: #fff;
+}
+.pad_20{
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+.font_16{
+    font-size: 1.143rem !important;
+}
+.margin_20{
+    margin:20px 0;
+}
+.up_nav{
+    width:100%;
+    height: 40px;
+    background: #444444;
+    direction: rtl;
+    color: #A8A8AA;
+}
+
+.nav{
+    width:100%;
+    background:#313131;
+    height: 40px;
+}
+.nav_ul{
+    width: 100%;
+    height: 40px;
+}
+.nav_ul li{
+    float: left;
+    width:11%;
+}
+.nav_ul li a{
+    text-decoration: none;
+}
+/*.nav_ul li a:hover{
+    color:rgba(255,255,255,0.8);
+}*/
+.icon_color_white{
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+    line-height: 40px;
+    color: white;
+}
+.icon_color_white:hover{
+    color: rgba(255,255,255,0.8);
+}
+
+
+
+
+.silder{
+    width:100%;
+    height: 648px;
+    /*overflow: hidden;*/
+    position: relative;
+}
+.silder_ul1 li{
+    display: none;
+    width: 100%;
+    height: 648px;
+}
+.ul1_bg1{
+    height: 648px !important;
+    background-size: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url(../images/banner1.jpg);
+    position: relative;
+}
+.bg1_font{
+    width: 100%;
+    padding:20px 0;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    color:#fff;
+    z-index: 99;
+}
+.ul1_bg2{
+    height: 648px !important;
+    background-size:100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url(../images/banner2.jpg);
+    position: relative;
+}
+.bg2_font{
+    width: 100%;
+    padding:20px 0;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    color:#000;
+    z-index: 99;
+
+}
+.bg2_font2{
+    width: 100%;
+    position: absolute;
+    bottom: 50px;
+    text-align: center;
+    font-size: 2rem;
+    color:#000;
+}
+.ul1_bg3{
+    height: 648px !important;
+    background-size:auto 100%;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-image: url(../images/banner3.jpg);
+    position: relative;
+}
+
+/*.silder_ul1 li img{
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    max-height: 100%;
+}*/
+.silder_ul2{
+    width: 360px;
+    height: 5px;
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+    margin:0 auto;
+}
+.silder_ul2 li{
+    float: left;
+    width: 100px;
+    height: 4px;
+    margin:0 10px;
+    background: #DCDCDC;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.silder_ul2 li p{
+    width: 0;
+    height: 4px;
+    border-radius: 2px;
+    background: #808080;
+}
+
+
+.row_under{
+    width: 100%;
+    border:2px solid #fff;
+}
+
+
+.bottom{
+    background:#F2F2F2;
+    padding-bottom: 50px;
+}
+.bottom_ul1{
+    width: 100%;
+}
+.bottom_ul1>li{
+    float: left;
+    width: 20%;
+}
+
+.ul_ul li a{
+    color: #555555;
+}
+
+
+.end_ul li{
+    float: left;
+    width:20%;
+    text-align: center;
+    border-right: 1px solid #ddd;
+}
+.end_ul li a{
+    color: #333;
+}
+
+
+
+/*第二页Mac*/
+.Mac_photo{
+    width: 100%;
+    background: #F6F6F6;
+    padding:20px 0;
+    cursor: pointer;
+    animation:a_left 2s ease 1s;
+}
+.col_ul{
+    width: 100%;
+    padding:0 5%;
+}
+.col_ul li{
+    float: left;
+    width:10%;
+}
+.Mac_1{
+    width:100%;
+    background:linear-gradient(top,#fff,#F8F8F8);
+    background:-moz-linear-gradient(top,#fff,#F8F8F8);
+    background:-o-linear-gradient(top,#fff,#F8F8F8);
+    background:-webkit-linear-gradient(top,#fff,#F8F8F8);
+    padding:20px 0;
+}
+.Mac_1_font{
+    padding-top: 20px;
+}
+.font_20{
+    font-size: 1.429rem;
+    color: #2F70D2;
+}
+
+.imgs{
+    border-bottom: 1px solid #ddd;
+    margin:30px 0;
+}
+.imgs_a{
+    display: inline-block;
+}
+
+
+.edu{
+    width:100%;
+    height: 100%;
+    margin-bottom: 10px;
+    position: relative;
+}
+.edu_font{
+    width:100%;
+    height: 100%;
+    padding-top: 30px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    text-align: center;
+    color: #fff;
+}
+
+
+
+/*第三页*/
+.inlin{
+    display: inline-block;
+    margin-right:20px;
+    animation:a_left 2s ease 1s;
+}
+.ipad{
+    width:100%;
+    background:#fafafa;
+}
+.pht{
+    position: relative;
+}
+.pht_re{
+    position: absolute;
+    left: 13px;
+    top: 0;
+}
+.pht2{
+    position: relative;
+}
+.pht_re2{
+    position: absolute;
+    right: 40%;
+    top: 100px;
+}
+
+.ipad_img{
+    height: 450px;
+    background: url(../images/ipad4.jpg);
+    background-size:100% 319px;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-color:#fafafa;
+}
+
+.ipad_no{
+    width:100%;
+    position: relative;
+    margin: 50px 0;
+}
+
+
+.ipad_2{
+    width:100%;
+    padding: 20px 0;
+}
+.ipad_3{
+    width:100%;
+    background:#F2F2F2;
+    padding-top: 50px;
+    margin-bottom: 10px;
+}
+.ipad3_bg{
+    width:100%;
+    height: 420px;
+    background: url(../images/ipad7.png);
+    background-size: 60% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.ipad4_bg{
+    width:100%;
+    height: 263px;
+    background: url(../images/ipad8.png);
+    background-size: 60% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.bg{
+    width:100%;
+    height: 800px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    background-position: center;
+}
+.ipad5_bg{
+    background:url(../images/ipad9.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.ipad6_bg{
+    background:url(../images/ipad10.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.ipad7_bg{
+    background:url(../images/ipad11.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.ipad8_bg{
+    background:url(../images/ipad12.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+
+/*第四页*/
+.iPhone_photo{
+    width: 100%;
+    background: #313131;
+    padding-top:20px;
+    cursor: pointer;
+    animation:a_left 2s ease 1s;
+}
+.iPhone1{
+    width:100%;
+    background:#000;
+    padding-top: 20px;
+}
+.iphone1_font{
+    color: #fff;
+}
+.font_h2{
+    font-size: 46px;
+}
+.iphone_bg1{
+    width:100%;
+    height: 522px;
+    background-image: url(../images/iphone_1.jpg);
+    background-size: 50% 522px;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+.iPhone2{
+    width:100%;
+    background:#F2F2F2;
+}
+.iphone_2_ul1{
+    width:100%;
+}
+.iphone_2_ul1 li{
+    float: left;
+    width: 45%;
+}
+.ul1_li1{
+    margin-right:5%;
+    background:#fff;
+}
+.ul1_li2{
+    margin-left:5%;
+    background:#121212;
+}
+.iphone_bg{
+    width:100%;
+    height: 712px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 100%;
+}
+.iphone2_1{
+    background: url(../images/iphone_2.jpg);
+}
+.iphone2_2{
+    background-image: url(../images/iphone_3.jpg);
+}
+.iphone_2_ul2{
+    padding:20px 40px;
+    width: 100%;
+}
+.iphone_2_ul2 li{
+    float: left;
+    width: 20%;
+    padding:10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.iphone_2_ul2 li a img{
+    width: 100%;
+    max-width: 100%;
+    height: 187px;
+}
+
+.caijian1{
+    width: 100%;
+    height: 380px;
+    background-image: url(../images/iphone_10.jpg);
+    background-position: -62px 60px;
+    background-repeat: no-repeat;
+}
+.iphone_2_ul3{
+    width: 100%;
+    height:160px;
+    padding-top:10px;
+}
+.iphone_2_ul3 li{
+    width: 70%;
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+    margin:0 15%;
+}
+.caijian2{
+    width: 100%;
+    height: 470px;
+    background:url(../images/iphone_11.jpg);
+    background-repeat: no-repeat;
+    background-position: 8px 90px;
+}
+
+.con_bg{
+    background:url(../images/iphone_12.jpg);
+    min-height: 720px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.iphone2_3{
+    width:100%;
+    background:#fff;
+    margin:20px 0;
+}
+.con_bg2{
+    width: 100%;
+    height: 472px;
+    background: url(../images/iphone_13.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.con_flex{
+    padding:13% 15px;
+}
+.large{
+    font-size: 32px !important;
+}
+
+.iphone2_4{
+    height: 506px;
+    background:url(../images/iphone_15.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.iphone2_5{
+    padding:20px 15px;
+    border-bottom: 1px solid #D6D6D6;
+    color:#888888;
+}
+
+
+/*Watch start*/
+.Watch_ul1{
+    width: 100%;
+    padding-left:15%;
+}
+.Watch_ul1 li{
+    width: 10%;
+    float: left;
+}
+.watch_large{
+    font-size: 32px !important;
+    color:#000;
+}
+.watch_1{
+    padding:40px 0;
+}
+.watch_bg{
+    width:100%;
+    background-repeat: no-repeat;
+}
+.watch_img1{
+    height: 675px;
+    background:url(../images/Watch_1.jpg);
+    background-position: -17px -210px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.watch_ul1 li{
+    width: 45%;
+    float: left;
+    background:#f2f2f2;
+}
+.watch_img2{
+    height:635px;
+    background:url(../images/Watch_2.jpg);
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+.watch_img3{
+    height: 635px;
+    background: url(../images/Watch_3.jpg);
+    background-size: 100% 100%;
+}
+.watch_img4{
+    height: 502px;
+    background:url(../images/Watch_7.jpg);
+    background-size: 100% 100%;
+}
+.watch_bg2{
+    background:#f2f2f2;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.watch_img5{
+    height: 472px;
+    background:url(../images/Watch_8.jpg);
+    background-size: 100% 100%;
+}
+.watch_img6{
+    height: 700px;
+    background: url(../images/Watch_10.jpg);
+    background-size: 100% 100%;
+}
+
+
+.watch_img7{
+    height: 700px;
+    background: url(../images/Watch_11.jpg);
+}
+.watch_img8{
+    height: 700px;
+    background: url(../images/Watch_12.jpg);
+}
+.watch_img9{
+    height: 243px;
+    background: url(../images/Watch_13.jpg);
+    background-size: 100% 100%;
+}
+.watch_img10{
+    height: 700px;
+    background: url(../images/Watch_14.jpg);
+    background-size: 100% 100%;
+}
+.watch_img11{
+    height: 700px;
+    background: url(../images/Watch_15.jpg);
+    background-size: 100% 100%;
+}
+
+
+
+
+/*Music  start*/
+.music_bg{
+    width: 100%;
+    height: 800px;
+    background: url(../images/Music_1.jpg);
+    background-size: 100% 100%;
+}
+.nav_touming{
+    background:rgba(82,78,75,0.5);
+}
+.Mac_photo_touming{
+    background:rgba(54,52,50,0.5);
+}
+.music_btn{
+    border-radius: 5px;
+    padding:5px 8px;
+    background:#FF365D;
+    border: 0;
+    margin:20px 0;
+}
+.music_1{
+    position: absolute;
+    top: -120px;
+    left: 0;
+    right: 0;
+    margin:0 auto;
+}
+.music_ul1 li{
+    float: left;
+    width: 45%;
+}
+.music_2{
+    width: 100%;
+    background:#F5FDF1;
+}
+.music2_bg{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+.music2_bg1{
+    height: 940px;
+    background-image: url(../images/Music_7.png);
+}
+.music2_bg2{
+    height: 741px;
+    background-image: url(../images/Music_8.png);
+}
+.music2_bg3{
+    height: 773px;
+    background-image: url(../images/Music_9.png);
+}
+.music2_bg4{
+    height: 606px;
+    background-image: url(../images/Music_10.png);
+    background-size: 80%;
+    background-position:277px 68px;
+}
+.music2_bg5{
+    height: 438px;
+    background-image: url(../images/Music_11.png);
+    background-position: right 25px;
+}
+
+
+
+
+
+
+
+@keyframes a_left{
+    0%{
+        transform:translateX(-10px);
+    }
+    100%{
+        transform:translateX(0);
+    }
+}
+@-webkit-keyframes a_left{
+    0%{
+        transform:translateX(-10px);
+    }
+    100%{
+        transform:translateX(0);
+    }
+}
+@-moz-keyframes a_left{
+    0%{
+        transform:translateX(-10px);
+    }
+    100%{
+        transform:translateX(0);
+    }
+}
+@-o-keyframes a_left{
+    0%{
+        transform:translateX(-10px);
+    }
+    100%{
+        transform:translateX(0);
+    }
+}
+@media(max-width: 1400px){
+    .pht_re2{
+        right: 18%;
+    }
+    .watch_img1{
+        height: 320px;
+    }
+}
